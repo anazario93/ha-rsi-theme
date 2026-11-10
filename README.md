@@ -2,18 +2,18 @@
 
 A dark, RSI-inspired Home Assistant theme based on the Multi-Function Displays (MFDs) in **Star Citizen**.
 
-The visual direction uses graphite and blue-gray surfaces, illuminated aerospace-blue controls, cyan instrumentation accents, restrained amber highlights, and readable technical text. It is designed as a responsive-friendly global theme for phones, tablets, and desktop displays.
+The visual direction uses graphite and blue-gray surfaces, brighter illuminated aerospace-blue controls, cyan instrumentation accents, restrained amber highlights, and readable technical text. It is designed as a responsive-friendly global theme for phones, tablets, and desktop displays.
 
 ## Features
 
 - Deep graphite background and blue-gray card surfaces
-- Illuminated blue primary buttons, switches, sliders, and controls
+- Brighter illuminated blue primary buttons, switches, sliders, and controls
 - Cyan instrumentation accents for navigation and active status indicators
 - Amber highlights for attention and illuminated equipment states
 - Muted steel-blue secondary text and dividers
 - Dark-mode palette
 
-> **Project status:** Early development (v0.2). The global palette and first pass of the blue control colors are in place. More detailed MFD-style button treatments, responsive component styling, and custom-card refinements may be added in later iterations.
+> **Project status:** Early development (v0.3). The global palette and brighter blue control colors are in place. More detailed MFD-style button treatments, responsive component styling, and custom-card refinements may be added in later iterations.
 
 ## Installation with HACS
 
@@ -45,7 +45,7 @@ The visual direction uses graphite and blue-gray surfaces, illuminated aerospace
 |---|---|---|
 | Main background | Graphite | `#101719` |
 | Panels and cards | Blue-gray | `#1C2A31` |
-| Primary controls | Illuminated aerospace blue | `#1688C7` |
+| Primary controls | Brighter illuminated aerospace blue | `#20A9E8` |
 | Instrumentation accents | Cyan | `#39D9E9` |
 | Attention / selected accent | Amber | `#F0C85A` |
 | Primary text | Display white | `#D5E5E7` |
