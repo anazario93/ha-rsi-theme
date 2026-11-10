@@ -1,13 +1,13 @@
 # RSI Industrial - Home Assistant Theme
 # Inspired by Star Citizen RSI shipboard MFD interfaces.
-# Dark palette: graphite surfaces, illuminated blue controls, cyan instrumentation, amber alerts.
+# Dark palette: graphite surfaces, brighter illuminated blue controls, cyan instrumentation, amber alerts.
 
 RSI Industrial:
   modes:
     dark:
       # Core palette
-      primary-color: "#1688C7"
-      accent-color: "#1688C7"
+      primary-color: "#20A9E8"
+      accent-color: "#20A9E8"
       primary-background-color: "#101719"
       secondary-background-color: "#172329"
       card-background-color: "#1C2A31"
@@ -41,13 +41,13 @@ RSI Industrial:
       paper-item-icon-color: "#91AEB4"
       paper-item-icon-active-color: "#39D9E9"
 
-      # Controls - illuminated aerospace blue
-      switch-checked-button-color: "#1688C7"
-      switch-checked-track-color: "rgba(22, 136, 199, 0.42)"
+      # Controls - brighter illuminated aerospace blue
+      switch-checked-button-color: "#20A9E8"
+      switch-checked-track-color: "rgba(32, 169, 232, 0.48)"
       switch-unchecked-button-color: "#91AEB4"
       switch-unchecked-track-color: "#35474D"
-      paper-slider-active-color: "#1688C7"
-      paper-slider-knob-color: "#1688C7"
+      paper-slider-active-color: "#20A9E8"
+      paper-slider-knob-color: "#20A9E8"
       paper-slider-container-color: "#35474D"
 
       # Inputs and dialogs
@@ -55,8 +55,8 @@ RSI Industrial:
       input-ink-color: "#D5E5E7"
       input-label-ink-color: "#91AEB4"
       input-idle-line-color: "#45616A"
-      input-hover-line-color: "#1688C7"
-      mdc-theme-primary: "#1688C7"
+      input-hover-line-color: "#20A9E8"
+      mdc-theme-primary: "#20A9E8"
       mdc-theme-secondary: "#F0C85A"
       mdc-theme-surface: "#1C2A31"
       mdc-theme-on-surface: "#D5E5E7"
