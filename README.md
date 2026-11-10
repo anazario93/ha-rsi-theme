@@ -8,6 +8,7 @@ The visual direction uses graphite and blue-gray surfaces, brighter illuminated 
 
 - Deep graphite background and blue-gray card surfaces
 - Brighter illuminated blue primary buttons, switches, sliders, and controls
+- Soft aerospace-blue edge glow on standard Button cards when card-mod is installed
 - Cyan instrumentation accents for navigation and active status indicators
 - Amber highlights for attention and illuminated equipment states
 - Muted steel-blue secondary text and dividers
@@ -31,6 +32,10 @@ The visual direction uses graphite and blue-gray surfaces, brighter illuminated 
    If you already have a `frontend:` section, add `themes:` beneath it rather than creating a duplicate section.
 6. Run **Developer Tools → Actions → frontend.reload_themes** (or restart Home Assistant).
 7. Select **RSI Industrial** in your Home Assistant user profile.
+
+## Optional: MFD button glow with card-mod
+
+The illuminated edge glow on standard Home Assistant Button cards uses [card-mod](https://github.com/thomasloven/lovelace-card-mod). Install card-mod through HACS and ensure its dashboard resource is loaded. The theme then applies a restrained blue border and layered glow to standard Button cards only; other cards keep their existing shadow treatment. Card-mod 4.2.0 is the current compatible release line for Home Assistant 2026.2 and newer.
 
 ## Manual installation
 
