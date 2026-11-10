@@ -1,0 +1,64 @@
+# RSI Industrial - Home Assistant Theme
+# Inspired by Star Citizen RSI shipboard MFD interfaces.
+# Dark-only palette: graphite surfaces, cyan instrumentation, amber alerts.
+
+RSI Industrial:
+  modes:
+    dark:
+      # Core palette
+      primary-color: "#39D9E9"
+      accent-color: "#39D9E9"
+      primary-background-color: "#101719"
+      secondary-background-color: "#172329"
+      card-background-color: "#1C2A31"
+      ha-card-background: "#1C2A31"
+      ha-card-border-color: "#31515B"
+      ha-card-border-width: "1px"
+      ha-card-border-radius: "8px"
+      ha-card-box-shadow: "0 0 8px rgba(57, 217, 233, 0.10)"
+
+      # Text
+      primary-text-color: "#D5E5E7"
+      secondary-text-color: "#91AEB4"
+      text-primary-color: "#D5E5E7"
+      disabled-text-color: "#60747A"
+
+      # Header and navigation
+      app-header-background-color: "#172329"
+      app-header-text-color: "#D5E5E7"
+      app-header-selection-bar-color: "#39D9E9"
+      sidebar-background-color: "#141F24"
+      sidebar-text-color: "#A9C0C5"
+      sidebar-selected-text-color: "#39D9E9"
+      sidebar-selected-icon-color: "#39D9E9"
+
+      # Dividers and icons
+      divider-color: "rgba(145, 174, 180, 0.18)"
+      outline-color: "#31515B"
+      state-icon-color: "#91AEB4"
+      state-icon-active-color: "#39D9E9"
+      state-light-on-color: "#F0C85A"
+      paper-item-icon-color: "#91AEB4"
+      paper-item-icon-active-color: "#39D9E9"
+
+      # Controls
+      switch-checked-button-color: "#39D9E9"
+      switch-checked-track-color: "rgba(57, 217, 233, 0.42)"
+      switch-unchecked-button-color: "#91AEB4"
+      switch-unchecked-track-color: "#35474D"
+      paper-slider-active-color: "#39D9E9"
+      paper-slider-knob-color: "#39D9E9"
+      paper-slider-container-color: "#35474D"
+
+      # Inputs and dialogs
+      input-fill-color: "#172329"
+      input-ink-color: "#D5E5E7"
+      input-label-ink-color: "#91AEB4"
+      input-idle-line-color: "#45616A"
+      input-hover-line-color: "#39D9E9"
+      mdc-theme-primary: "#39D9E9"
+      mdc-theme-secondary: "#F0C85A"
+      mdc-theme-surface: "#1C2A31"
+      mdc-theme-on-surface: "#D5E5E7"
+      mdc-theme-background: "#101719"
+      mdc-theme-on-primary: "#101719"
