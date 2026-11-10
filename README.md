@@ -2,17 +2,18 @@
 
 A dark, RSI-inspired Home Assistant theme based on the Multi-Function Displays (MFDs) in **Star Citizen**.
 
-The visual direction uses graphite and blue-gray surfaces, illuminated cyan controls, restrained amber highlights, and readable technical text. It is designed as a responsive-friendly global theme for phones, tablets, and desktop displays.
+The visual direction uses graphite and blue-gray surfaces, illuminated aerospace-blue controls, cyan instrumentation accents, restrained amber highlights, and readable technical text. It is designed as a responsive-friendly global theme for phones, tablets, and desktop displays.
 
 ## Features
 
 - Deep graphite background and blue-gray card surfaces
-- Cyan primary accents and active-state colors
+- Illuminated blue primary buttons, switches, sliders, and controls
+- Cyan instrumentation accents for navigation and active status indicators
 - Amber highlights for attention and illuminated equipment states
 - Muted steel-blue secondary text and dividers
 - Dark-mode palette
 
-> **Project status:** Early development (v0.1). The theme establishes the global color system. More detailed MFD-style button treatments, responsive component styling, and custom-card refinements may be added in later iterations.
+> **Project status:** Early development (v0.2). The global palette and first pass of the blue control colors are in place. More detailed MFD-style button treatments, responsive component styling, and custom-card refinements may be added in later iterations.
 
 ## Installation with HACS
 
@@ -44,7 +45,8 @@ The visual direction uses graphite and blue-gray surfaces, illuminated cyan cont
 |---|---|---|
 | Main background | Graphite | `#101719` |
 | Panels and cards | Blue-gray | `#1C2A31` |
-| Primary interface accent | Illuminated cyan | `#39D9E9` |
+| Primary controls | Illuminated aerospace blue | `#1688C7` |
+| Instrumentation accents | Cyan | `#39D9E9` |
 | Attention / selected accent | Amber | `#F0C85A` |
 | Primary text | Display white | `#D5E5E7` |
 | Secondary text | Steel blue-gray | `#91AEB4` |
