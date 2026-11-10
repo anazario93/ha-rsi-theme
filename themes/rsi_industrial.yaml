@@ -5,6 +5,17 @@
 RSI Industrial:
   modes:
     dark:
+      # Optional card-mod integration: isolate the MFD glow to standard Button cards.
+      # Install card-mod through HACS to enable these styles.
+      card-mod-theme: "RSI Industrial"
+      card-mod-card-yaml: |
+        hui-button-card $: |
+          ha-card {
+            border: 1px solid rgba(32, 169, 232, 0.72);
+            box-shadow: 0 0 5px rgba(32, 169, 232, 0.55), 0 0 14px rgba(32, 169, 232, 0.30);
+            transition: box-shadow 180ms ease, border-color 180ms ease;
+          }
+
       # Core palette
       primary-color: "#20A9E8"
       accent-color: "#20A9E8"
