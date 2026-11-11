@@ -7,6 +7,7 @@ RSI Industrial:
     dark:
       # Card-mod styling: apply the same proven inline treatment globally to standard Button cards.
       card-mod-theme: "RSI Industrial"
+      card-mod-card-debug: true
       card-mod-card-yaml: |
         hui-button-card $: |
           ha-card {
