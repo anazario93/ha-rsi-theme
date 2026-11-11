@@ -5,15 +5,32 @@
 RSI Industrial:
   modes:
     dark:
-      # Optional card-mod integration: isolate the MFD glow to standard Button cards.
-      # Install card-mod through HACS to enable these styles.
+      # Card-mod styling: inward illuminated button borders and instrument-style headings.
       card-mod-theme: "RSI Industrial"
       card-mod-card-yaml: |
         hui-button-card $: |
           ha-card {
-            border: 1px solid rgba(32, 169, 232, 0.72);
-            box-shadow: 0 0 5px rgba(32, 169, 232, 0.55), 0 0 14px rgba(32, 169, 232, 0.30);
+            border: 1px solid rgba(32, 169, 232, 0.88);
+            box-shadow:
+              inset 0 0 5px rgba(32, 169, 232, 0.70),
+              inset 0 0 14px rgba(32, 169, 232, 0.30),
+              0 0 5px rgba(32, 169, 232, 0.24);
             transition: box-shadow 180ms ease, border-color 180ms ease;
+          }
+          ha-card:active {
+            box-shadow:
+              inset 0 0 8px rgba(32, 169, 232, 0.82),
+              inset 0 0 20px rgba(32, 169, 232, 0.38);
+          }
+        hui-heading-card $: |
+          h1, h2, h3 {
+            font-weight: 600;
+            letter-spacing: 0.045em;
+          }
+        ha-card: |
+          .card-header {
+            font-weight: 600;
+            letter-spacing: 0.035em;
           }
 
       # Oxanium typography.
