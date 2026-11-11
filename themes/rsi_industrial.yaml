@@ -5,44 +5,39 @@
 RSI Industrial:
   modes:
     dark:
-      # Card-mod styling: apply the same proven inline treatment globally to standard Button cards.
+      # Card-mod styling: use plain CSS theme key.
+      # Avoid -yaml theme keys: card-mod 4.2.1 has a YAML parser compatibility issue
+      # with newer Home Assistant frontend versions.
       card-mod-theme: "RSI Industrial"
       card-mod-card-debug: true
-      card-mod-card-yaml: |
-        hui-button-card: |
-          ha-card {
-            background: #203B49 !important;
-            border: 2px solid rgba(32, 169, 232, 0.95) !important;
-            box-shadow:
-              inset 0 0 3px 1px rgba(32, 169, 232, 0.75),
-              inset 0 0 10px 2px rgba(32, 169, 232, 0.38),
-              0 0 6px 1px rgba(32, 169, 232, 0.25) !important;
-            transition: background 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
-          }
-          ha-card:hover {
-            background: #24485A !important;
-            box-shadow:
-              inset 0 0 4px 1px rgba(32, 169, 232, 0.82),
-              inset 0 0 13px 3px rgba(32, 169, 232, 0.46),
-              0 0 7px 1px rgba(32, 169, 232, 0.32) !important;
-          }
-          ha-card:active {
-            background: #285064 !important;
-            box-shadow:
-              inset 0 0 5px 1px rgba(32, 169, 232, 0.9),
-              inset 0 0 15px 3px rgba(32, 169, 232, 0.52),
-              0 0 6px 1px rgba(32, 169, 232, 0.28) !important;
-          }
-        hui-heading-card $: |
-          h1, h2, h3 {
-            font-weight: 600;
-            letter-spacing: 0.045em;
-          }
-        ha-card: |
-          .card-header {
-            font-weight: 600;
-            letter-spacing: 0.035em;
-          }
+      card-mod-card: |
+        :host(.type-button) ha-card {
+          background: #203B49 !important;
+          border: 2px solid rgba(32, 169, 232, 0.95) !important;
+          box-shadow:
+            inset 0 0 3px 1px rgba(32, 169, 232, 0.75),
+            inset 0 0 10px 2px rgba(32, 169, 232, 0.38),
+            0 0 6px 1px rgba(32, 169, 232, 0.25) !important;
+          transition: background 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+        }
+        :host(.type-button) ha-card:hover {
+          background: #24485A !important;
+          box-shadow:
+            inset 0 0 4px 1px rgba(32, 169, 232, 0.82),
+            inset 0 0 13px 3px rgba(32, 169, 232, 0.46),
+            0 0 7px 1px rgba(32, 169, 232, 0.32) !important;
+        }
+        :host(.type-button) ha-card:active {
+          background: #285064 !important;
+          box-shadow:
+            inset 0 0 5px 1px rgba(32, 169, 232, 0.9),
+            inset 0 0 15px 3px rgba(32, 169, 232, 0.52),
+            0 0 6px 1px rgba(32, 169, 232, 0.28) !important;
+        }
+        ha-card .card-header {
+          font-weight: 600;
+          letter-spacing: 0.035em;
+        }
 
       # Oxanium typography.
       # Register the Google Fonts CSS URL as a CSS/Stylesheet dashboard resource.
