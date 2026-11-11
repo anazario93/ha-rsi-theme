@@ -8,13 +8,14 @@ The visual direction uses graphite and blue-gray surfaces, brighter illuminated 
 
 - Deep graphite background and blue-gray card surfaces
 - Brighter illuminated blue primary buttons, switches, sliders, and controls
+- Oxanium typography across the interface (requires card-mod and an internet connection to Google Fonts)
 - Soft aerospace-blue edge glow on standard Button cards when card-mod is installed
 - Cyan instrumentation accents for navigation and active status indicators
 - Amber highlights for attention and illuminated equipment states
 - Muted steel-blue secondary text and dividers
 - Dark-mode palette
 
-> **Project status:** Early development (v0.3). The global palette and brighter blue control colors are in place. More detailed MFD-style button treatments, responsive component styling, and custom-card refinements may be added in later iterations.
+> **Project status:** Early development (v0.5). The global palette, brighter blue controls, and Oxanium typography prototype are in place. The font is loaded from Google Fonts; Home Assistant clients need internet access and card-mod installed.
 
 ## Installation with HACS
 
@@ -32,6 +33,10 @@ The visual direction uses graphite and blue-gray surfaces, brighter illuminated 
    If you already have a `frontend:` section, add `themes:` beneath it rather than creating a duplicate section.
 6. Run **Developer Tools → Actions → frontend.reload_themes** (or restart Home Assistant).
 7. Select **RSI Industrial** in your Home Assistant user profile.
+
+## Typography: Oxanium
+
+The theme uses [Oxanium](https://fonts.google.com/specimen/Oxanium), designed by Severin Meyer and distributed under the SIL Open Font License 1.1. The font is loaded from Google Fonts rather than bundled in this repository. This avoids redistributing font binaries while preserving the open license; clients need internet access to retrieve the font. The font is applied to the overall Home Assistant interface through theme typography variables and card-mod root styling. The repository includes the font license in `OFL-Oxanium.txt`.
 
 ## Optional: MFD button glow with card-mod
 
