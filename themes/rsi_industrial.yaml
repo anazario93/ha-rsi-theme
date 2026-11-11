@@ -16,6 +16,19 @@ RSI Industrial:
             transition: box-shadow 180ms ease, border-color 180ms ease;
           }
 
+      # Oxanium typography - loaded from Google Fonts. card-mod is required.
+      primary-font-family: "'Oxanium', sans-serif"
+      ha-font-family-body: "'Oxanium', sans-serif"
+      ha-font-family-heading: "'Oxanium', sans-serif"
+      mdc-typography-font-family: "'Oxanium', sans-serif"
+      paper-font-common-base_-_font-family: "'Oxanium', sans-serif"
+      paper-font-common-code_-_font-family: "'Oxanium', sans-serif"
+      card-mod-theme: "RSI Industrial"
+      card-mod-root-yaml: |
+        "*":
+          .: |
+            @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
       # Core palette
       primary-color: "#20A9E8"
       accent-color: "#20A9E8"
