@@ -16,15 +16,14 @@ RSI Industrial:
             transition: box-shadow 180ms ease, border-color 180ms ease;
           }
 
-      # Oxanium typography - loaded from Google Fonts. card-mod is required.
-      # The root selector injects the font stylesheet into the frontend.
-      ha-font-family-body: "'Oxanium', sans-serif"
-      ha-font-family-heading: "'Oxanium', sans-serif"
-      ha-font-family-code: "'Oxanium', monospace"
-      ha-card-header-font-family: "'Oxanium', sans-serif"
-      card-mod-root-yaml: |
-        .: |
-          @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+      # Oxanium typography.
+      # Register the Google Fonts CSS URL as a CSS/Stylesheet dashboard resource.
+      primary-font-family: "'Oxanium', sans-serif"
+      ha-font-family-body: "var(--primary-font-family)"
+      ha-font-family-heading: "var(--primary-font-family)"
+      ha-font-family-code: "var(--primary-font-family)"
+      ha-font-family-longform: "var(--primary-font-family)"
+      ha-card-header-font-family: "var(--primary-font-family)"
 
       # Core palette
       primary-color: "#20A9E8"
