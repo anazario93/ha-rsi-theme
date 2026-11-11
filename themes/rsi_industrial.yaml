@@ -9,7 +9,7 @@ RSI Industrial:
       card-mod-theme: "RSI Industrial"
       card-mod-card-debug: true
       card-mod-card-yaml: |
-        hui-button-card $: |
+        hui-button-card: |
           ha-card {
             background: #203B49 !important;
             border: 2px solid rgba(32, 169, 232, 0.95) !important;
