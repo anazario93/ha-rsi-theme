@@ -19,7 +19,7 @@ RSI Industrial:
       primary-color: "#20A9E8"
       accent-color: "#20A9E8"
       primary-background-color: "#101719"
-      lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/anazario93/ha-rsi-theme/main/images/rsi_blue_mfd.jpg.PNG")'
+      lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/anazario93/ha-rsi-theme/main/images/rsi_blue_mfd.jpg.jpg")'
       secondary-background-color: "#172329"
       card-background-color: "#1C2A31"
       ha-card-background: "#1C2A31"
